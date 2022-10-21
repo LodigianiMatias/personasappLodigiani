@@ -1,4 +1,4 @@
-import { FlatList, Text, View } from "react-native";
+import { FlatList, Image, Text, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 
 import { PlaceItem } from "../../components";
@@ -23,6 +23,7 @@ const PlaceList = ({ navigation }) => {
 
   const ListEmptyComponent = () => (
     <View style={styles.emptyContainer}>
+      <Image source={{uri: 'https://i.ibb.co/dmzrttq/icono.jpg'}} style={styles.img}/>
       <Text style={styles.emptyText}>No tienes personas añadidas</Text>
     </View>
   );

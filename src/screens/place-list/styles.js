@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   emptyContainer: {
-    marginVertical: 20,
+    marginVertical: 150,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -13,4 +13,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
   },
+  img: {
+    width: 300,
+    height: 300,
+  }
 });
